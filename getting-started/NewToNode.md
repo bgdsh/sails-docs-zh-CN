@@ -1,57 +1,54 @@
-# New to [Node.js](https://soundcloud.com/marak/marak-the-node-js-rap)?
-That's okay!  We'll get you pointed in the right direction.
+# [Node.js](https://soundcloud.com/marak/marak-the-node-js-rap)新手？
+没问题的，我们将给你指引正确的方向。
+[nodejs.org](http://nodejs.org)上对Node.js的介绍:
+> Node.js是一个构建于 Chrome的JavaScript运行环境之上的，用于快速构建可拓展的网络应用的平台。Node.js使用事件驱动、非阻塞I/O模型，以确保其轻量、高效。非常适合于构建运行在分布式设备上的数据密集型的实时应用。
 
+更简单地说，Node.js允许我们在浏览器环境之外快速高效地运行JavaScript代码。让在前后端使用相同的编程语言成为了可能。
+## 我需要什么操作系统？
 
-Per [nodejs.org](http://nodejs.org):
-> "Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices."
+Node.js可以安装在大多数主流的操作系统之上。MacOSX,主流的Linux操作系统，Windows系统，都是支持的。
 
-More simply put, Node.js allows us to quickly and efficiently run JavaScript code outside the browser, making it possible to use the same language on both the frontend and the backend.
+现在, 看看你有下面列的哪种系统，选择并在上面安装node.js:
 
-## What OS do I need?
+我有 [Mac OSX](http://sailsjs.org/get-started#?install-on-osx)
 
-Node.js will install on most major Operating systems.  MacOSX, many flavors of Linux, and Windows are supported.
+我有 [Linux](http://sailsjs.org/get-started#?install-on-linux)
 
-Now, lets take a look at what OS you have.  Please choose from the following for instructions on setting up Node.js:
-
-I have [Mac OSX](http://sailsjs.org/get-started#?install-on-osx)
-
-I have [Linux](http://sailsjs.org/get-started#?install-on-linux)
-
-I have [Windows](http://sailsjs.org/get-started#?install-on-windows)
+我有 [Windows](http://sailsjs.org/get-started#?install-on-windows)
 
 <h2>
 <a id="install-on-osx" name="/getStarted?q=--install-on-osx-" class="anchor" href="http://sailsjs.org/getStarted?q=--install-on-osx-"><span class="mini-icon mini-icon-link"></span></a>
-Install on OSX
+在OSX上安装
 </h2>
 
-Using [a package](http://nodejs.org/download/):
+使用 [安装包](http://nodejs.org/download/):
 
-_Simply [download Macintosh Installer](http://nodejs.org/download/)._
+直接 [下载Mac版安装包](http://nodejs.org/download/)
 
-Using [homebrew](https://github.com/mxcl/homebrew):
+使用 [homebrew](https://github.com/mxcl/homebrew):
 
     brew install node
 
-Using [macports](http://www.macports.org/):
+使用 [macports](http://www.macports.org/):
 
     port install nodejs
 
 <h2>
 <a id="install-on-linux" name="/getStarted?q=--install-on-linux-" class="anchor" href="http://sailsjs.org/getStarted?--install-on-linux-"><span class="mini-icon mini-icon-link"></span></a>
-Install on Linux
+在Linux上安装
 </h2>
 
 ### Ubuntu, Mint
 
-Example install:
+安装方法:
 
     sudo apt-get install python-software-properties python g++ make
     curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
     sudo apt-get install -y nodejs
 
-It installs current stable Node on the current stable Ubuntu. Quantal (12.10) users may need to install the *software-properties-common* package for the `add-apt-repository` command to work: `sudo apt-get install software-properties-common`
+上述命令在稳定版的Ubuntu上安装稳定版的Node.js。 Quantal (12.10) 用户可能需要安装 *software-properties-common* 的依赖包来使 `add-apt-repository` 命令起作用: `sudo apt-get install software-properties-common`
 
-There is a naming conflict with the node package (Amateur Packet Radio Node Program), and the nodejs binary has been renamed from `node` to `nodejs`. You'll need to symlink `/usr/bin/node` to `/usr/bin/nodejs` or you could uninstall the Amateur Packet Radio Node Program to avoid that conflict.
+有一个安装包和Node名字冲突了 (Amateur Packet Radio Node Program), node字节码文件已经从 `node` 改名为 `nodejs`. 你需要把 `/usr/bin/node` 链接到 `/usr/bin/nodejs` 或者 你可以卸载 the Amateur Packet Radio Node Program 以避免冲突.
 
 ### Fedora
 
@@ -154,5 +151,3 @@ Once Node.js is installed on your system, you can go ahead and [install Sails](h
 ## Further help!
 We know that sometimes things don't go as planned. If you still have any issue with this, please feel free to visit Node.js's [IRC Channel](irc://irc.freenode.net/node.js) or our own [IRC Channel](irc://irc.freenode.net/sailsjs).
 
-
-<docmeta name="displayName" value="New To Node?">
