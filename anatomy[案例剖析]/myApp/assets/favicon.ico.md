@@ -1,6 +1,6 @@
 # myApp/assets/favicon.ico
 ### Purpose
-This file is the [Favicon](http://en.wikipedia.org/wiki/Favicon) for your app.  
+这个文件是你的应用的 [Favicon](http://en.wikipedia.org/wiki/Favicon).  
 
 ### More Info
 

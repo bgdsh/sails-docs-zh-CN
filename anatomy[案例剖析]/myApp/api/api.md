@@ -1,16 +1,12 @@
 # myApp/api
-### Purpose
-This folder contains the vast majority of your app's back-end logic.  It is home to the 'M' and 'C' in [MVC Framework](http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller).
+### 用途
+这个文件夹包含你的应用的大部分后端逻辑。这是存放[MVC 框架](http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)中'M' 和 'C'的地方.
 
-In it you will find the following.
+在这个文件夹，你将会看到如下内容.
 
-- Controllers: Controllers contain most of the back-end logic for your app.
-- Models: Models are the structures that contain data for your Sails App.
-- Policies: Policies are typically used to authenticate clients and restrict access to certain parts of your app.
-- Responses: Server response logic (404 - Not Found, 500 - Server Error, etc)
-- Services: Services are similar to controller actions.  They contain logic that used by your app that doesn't necessarily rely on `.req()` and `.res()`.  
-
-
-
-<docmeta name="displayName" value="api">
+- 控制器: 控制器包含大部分的后端逻辑.
+- 数据模型: 数据模型是应用程序数据的结构.
+- 约束: 约束一般用于验证客户端请求和限制访问应用的特定部分。
+- 响应: 服务器响应逻辑 (404 - 页面未找到, 500 - 服务器内部错误, 等等)
+- 服务: 服务和控制器的动作类似. 他们包含不依赖于`.req()` 和 `.res()` 的逻辑.  
 

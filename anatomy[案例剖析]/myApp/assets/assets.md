@@ -1,8 +1,4 @@
 # myApp/assets
-### Purpose
-This is your assets folder.  It houses all of the static files that your app will need to host.  Feel free to create your own files and folders in here.  Upon lifting, a file called `myApp/assets/newFolder/data.txt` could be accessed at `http://localhost:1337/newFolder/data.txt`.
-
-
-
-<docmeta name="displayName" value="assets">
+### 目的
+这是你的静态文件目录.  你可以在这随意创建文件、文件夹.  启动程序之后, `myApp/assets/newFolder/data.txt` 可以通过 `http://localhost:1337/newFolder/data.txt`访问.
 
