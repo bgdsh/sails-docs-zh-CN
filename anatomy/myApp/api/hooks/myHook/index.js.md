@@ -1,51 +1,51 @@
 # myApp/api/hooks/myHook/index.js
-### Purpose
-
-This is an example of a [project hook](http://sailsjs.org/documentation/concepts/extending-sails/Hooks/projecthooks.html), which adds functionality to Sails for `myApp`.  See the [hooks](http://sailsjs.org/documentation/concepts/extending-sails/Hooks) concepts section for more details.
+### 用途
+这是一个项目 [项目钩子](http://sailsjs.org/documentation/concepts/extending-sails/Hooks/projecthooks.html)的示例，用来给Sails添加功能。
+查阅 [钩子](http://sailsjs.org/documentation/concepts/extending-sails/Hooks) 概念章节来了解更多.
 
 ```js
 
 module.exports = function(sails) {
 
-  // This var will be private
+  // 这个变量将会是私有的
   // var foo = 'bar';
 
-  // This var will be public
+  // 这个变量是公有的
   // this.abc = 123;
 
   return {
 
-    // Pause sails lifting until this hook has completed initializing
+    // 在这个钩子已经初始化完成之前，暂停Sails启动
     // ready: false,
 
-    // set up the options of your hook
+    // 创建钩子的设置
     defaults:{
     },
 
-    // do stuff before intialize the hook
+    // 在钩子初始化之前做点什么
     configure: function(done){
       return done();
     },
 
-    // the logic of your hook
+    // 钩子的逻辑
     initialize: function(done){
-      // This will be available in app code as sails.hooks.myhook.numRequestsSeen
+      // 这个变量可以通过sails.hooks.myhook.numRequestsSeen访问
       this.numRequestsSeen = 0;
-      // This will be available in app code as sails.hooks.myhook.numUnhandledRequestsSeen
+      // 这个变量可以通过sails.hooks.myhook.numUnhandledRequestsSeen访问
       this.numUnhandledRequestsSeen = 0;
       return done();
     },
 
     routes: {
       before: {
-        // This route will be matched before any routes in config/routes.js
+        // 这个路由将会先于config/routes.js中的路由匹配
         'GET /*': function (req, res, next) {
            this.numRequestsSeen++;
            return next();
         }
       },
       after: {
-        // This route will be matched after any routes in config/routes.js
+        // 这个路由将会滞后于config/routes.js中的路由匹配
         'GET /*': function (req, res, next) {
            this.numUnhandledRequestsSeen++;
            return next();
@@ -58,3 +58,5 @@ module.exports = function(sails) {
 ```
 
 <docmeta name="displayName" value="index.js">
+
+

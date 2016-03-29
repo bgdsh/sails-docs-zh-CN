@@ -1,19 +1,18 @@
 # myApp/api/controllers/UserController.js
-### Purposes
+### 用途
 
-This file was created when you ran 'sails generate api User'.  It contains all of the controller logic for the model called 'User'. 
-
-This is where you will put "controller actions" that send data to your clients and render the views which display that data.
+当你运行 'sails generate api User'的时候，这个文件被创建。它包含了'User'模型的所有控制器逻辑。
+这是你存放『控制器动作』的地方。控制器动作是用来给客户端发送数据、渲染展示数据的页面的。
 
 
 <docmeta name="displayName" value="UserController.js">
 
 ```
 /**
- * UserController
+ * 用户控制器
  *
- * @description :: Server-side logic for managing users
- * @help        :: See http://sailsjs.org/documentation/concepts/Controllers
+ * @description :: 服务器端管理用户的逻辑
+ * @help        :: 见 http://sailsjs.org/documentation/concepts/Controllers
  */
 
 module.exports = {
@@ -22,3 +21,5 @@ module.exports = {
 
 
 ```
+
+

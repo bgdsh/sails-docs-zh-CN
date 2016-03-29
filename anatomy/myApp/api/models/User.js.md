@@ -1,11 +1,8 @@
 # myApp/api/models/User.js
-### Purpose
-This file was created when you ran 'sails generate api User'.  It contains the structure for the model called 'User'.
-
-In this file you will specify what attributes each model instance (record) should have.  You can also add custom model instance methods, as well as override the global settings for things like `policies` and `connections`.  
-
-One of the best parts about Sails is it uses [Waterline](https://github.com/balderdashy/waterline).  This means you can start developing your data models long before you commit to a particular database. 
-
+### 用途
+当你运行'sails generate api User'命令的时候，这个文件就被创建了。它包含了数据模型'User'的结构。
+你需要在这个文件中指定每个模型实例（记录）拥有哪些属性。你也可以加入自定义模型实例方法，也可以覆写`规约` 和 `连接`的全局设置。
+Sails最棒的一点是使用了[Waterline](https://github.com/balderdashy/waterline). 这意味着你可以远早于提交到特定的数据库之前开发数据模型。
 
 <docmeta name="displayName" value="User.js">
 
@@ -13,7 +10,7 @@ One of the best parts about Sails is it uses [Waterline](https://github.com/bald
 /**
 * User.js
 *
-* @description :: TODO: You might write a short summary of how this model works and what it represents here.
+* @description :: TODO: 你可以写下一小段话来描述这个模型是如何工作的，这里要呈现什么。
 * @docs        :: http://sailsjs.org/documentation/concepts/ORM/Models.html
 */
 
@@ -26,3 +23,5 @@ module.exports = {
 
 
 ```
+
+
